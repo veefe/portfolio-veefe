@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 6.5rem 10rem 6.5rem 10rem;
+}
+
+.container-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 3.5rem;
+    /* margin: 6.5rem auto 6.5rem auto; */
+    width: 80rem;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 3rem;
+}
+
+.menu__item a {
+    color: var(--color-main-green);
+    font-size: 1.25rem;
+    text-decoration: none;
+
+}
+
+.menu__item a:active {
+    font-weight: 700;
+}
+
+.menu__item a:hover {
+    font-weight: 700;
+}

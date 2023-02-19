@@ -1,0 +1,58 @@
+.intro {
+    display: flex;
+    justify-content: center;
+    column-gap: 5rem;
+}
+
+.intro__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 35%;
+}
+
+.intro__tittle {
+    color: var(--color-main-green); 
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+
+.tittle__strong:hover {
+    background-color: var(--color-main-green);
+    color: black;
+}
+
+.intro__text {
+    padding-right: 5rem;
+    color: var(--color-text-primary);
+    font-size: 1.25rem;
+}
+
+.intro__image {
+    width: 22.31rem;
+    height: 30.81rem;
+    background-image: url(../img/victor-franciulli.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-apps {
+    display: flex;
+    justify-content: center;
+}
+
+.apps__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    column-gap: 4.5rem;
+    margin: 10rem 0;
+}
+
+.list__image {
+    height: 96px;
+    width: 96px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

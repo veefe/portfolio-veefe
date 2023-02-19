@@ -1,0 +1,71 @@
+.container-work {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6rem;
+}
+
+.work-left {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 1.5rem;
+
+}
+
+.work-left__image {
+    background-image: url(../img/works/fusao.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 505px;
+    -webkit-box-shadow: 0px 10px 32px 0px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0px 10px 32px 0px rgba(0,0,0,0.28);
+    box-shadow: 0px 10px 32px 0px rgba(0,0,0,0.5);
+}
+
+.work-left__description {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    row-gap: 1rem;
+}
+
+.description__tittle {
+    font-size: 1.2rem;
+}
+
+.description__more {
+    color: var(--color-light-green);
+}
+
+.description__more a {
+    color: var(--color-light-green);
+}
+
+.description__more a:hover {
+    color: var(--color-main-green);
+}
+
+.work-right {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 1.5rem;
+}
+
+.work-right__description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 33%;
+    text-align: right;
+}
+
+.work-right__image {
+    background-image: url(../img/works/riot.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 900px;
+    height: 505px;
+    -webkit-box-shadow: 0px 10px 32px 0px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0px 10px 32px 0px rgba(0,0,0,0.28);
+    box-shadow: 0px 10px 32px 0px rgba(0,0,0,0.5);
+}

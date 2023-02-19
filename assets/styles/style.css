@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --color-main-green: #48eb92;
+    --color-light-green: #2b9159;
+    --color-dark-green: #001f12;
+    --color-text-primary: #ffffff;
+    --color-background: #000000;
+
+    --font-principal: 'Space Mono', monospace;
+}
+
+body {
+    /* background-color: var(--color-background); */
+    background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #1d5a38, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #1d5a38, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: var(--font-principal);
+    font-size: 1rem;
+}
+
+h1, h2, p {
+    color: var(--color-text-primary);
+}
+
+p {
+    line-height: 2rem;
+}
