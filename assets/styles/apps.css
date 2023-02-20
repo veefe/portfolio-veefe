@@ -1,0 +1,17 @@
+.container-apps {
+    padding: 6.5rem 16rem;
+}
+
+.apps__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.list__image {
+    height: 96px;
+    width: 96px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
