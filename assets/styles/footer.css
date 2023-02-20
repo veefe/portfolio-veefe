@@ -1,56 +1,50 @@
 footer {
-    background: #1f4037;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #1d5a38, #042413);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #1d5a38, #042413); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 520px;
-}
-
-.container-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    column-gap: 7.5rem;
+    background: #1f4037;  
+    background: -webkit-linear-gradient(to top, #1d5a38, #042413);
+    background: linear-gradient(to top, #1d5a38, #042413);
     padding: 6.5rem 10rem;
 }
 
 .container-content {
     display: flex;
     flex-direction: column;
-    row-gap: 1.5rem;
+    width: 40%;
+    row-gap: 1rem;
+
 }
 
-
 .footer__links {
-    align-items: center;
-    column-gap: 1.5rem;
     display: flex;
     flex-direction: row;
+    column-gap: 1rem;
+    height: 48px;
+}
+
+.content__social {
+    display: flex;
+    list-style: none;
+    column-gap: 1rem;
 }
 
 .email-btn {
     background-color: var(--color-dark-green);
+    text-align: center;
+    padding: 1rem;
     box-shadow: 0px 10px 32px 0px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0px 10px 32px 0px rgba(0,0,0,0.28);
     -moz-box-shadow: 0px 10px 32px 0px rgba(0,0,0,0.28);
-    height: auto;
-    padding: 1rem;
-    text-align: center;
 }
 
 .email-btn a {
-    text-decoration: none;
     color: var(--color-main-green);
+    text-decoration: none;
 }
 
 .email-btn:hover {
     box-shadow: none;
-}
-
-.content__social {
-    height: 48px;
-    display: flex;
-    column-gap: 1.5rem;
-    list-style: none;
 }
 
 .link__img-github {
