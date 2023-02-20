@@ -47,32 +47,39 @@ footer {
     box-shadow: none;
 }
 
-.link__img-github {
-    opacity: 30%;
+.link__img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 48px;
+    width: 48px;
+}
 
+.link__img-github {
+    background-image: url(../img/social/github-square.svg);
 }
 
 .link__img-github:hover {
-    opacity: 80%;
-
+    background-image: url(../img/social/github-square-pwrgreen.svg);
+    opacity: 50%;
 }
 
 .link__img-behance {
-    opacity: 30%;
-
+    background-image: url(../img/social/behance-square.svg);
 }
 
 .link__img-behance:hover {
-    opacity: 80%;
+    background-image: url(../img/social/behance-square-pwrgreen.svg);
+    opacity: 50%;
 
 }
 
 .link__img-linkedin {
-    opacity: 30%;
-
+    background-image: url(../img/social/linkedin-square.svg);
 }
 
 .link__img-linkedin:hover {
-    opacity: 80%;
+    background-image: url(../img/social/linkedin-square-mono-pwrgreen.svg);
+    opacity: 50%;
 
 }
