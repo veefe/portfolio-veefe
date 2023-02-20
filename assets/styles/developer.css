@@ -1,17 +1,17 @@
 .developer {
+    padding: 6.5rem 10rem;
+}
+
+.container-developer__content {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    column-gap: 1rem;
-    margin: 10rem 0;
-    height: 19.2rem;
+    column-gap: 2rem;
 }
 
 .content-left {
     display: flex;
     flex-direction: column;
     align-self: start;
-    width: 25%;
     text-align: right;
 }
 
@@ -29,5 +29,6 @@
     display: flex;
     align-self: flex-end;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
+    padding-top: 2.6rem;
 }
