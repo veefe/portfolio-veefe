@@ -1,37 +1,82 @@
-.intro {
-    display: flex;
-    justify-content: space-between;
-    padding: 6.5rem 16rem 0 16rem;
-}
-
-.intro__content {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-    max-width: calc(85% - 22.31rem);
-}
-
 .intro__tittle {
-    color: var(--color-main-green); 
-    font-size: 2.5rem;
-    line-height: 3.5rem;
+    color: var(--color-main-green);
 }
 
-.tittle__strong:hover {
-    background-color: var(--color-main-green);
-    color: black;
+@media screen and (min-width: 768px) {
+    .intro {
+        column-gap: normal;
+        display: flex;
+        justify-content: space-between;
+        padding: 6.5rem 5rem 0 5rem;
+        align-items: center;
+    }
+
+    .intro__content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        width: calc(80% - 10.31rem);
+    }
+    
+    .intro__tittle {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .intro__text {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .intro__image {
+        position: relative;
+        height: 360px;
+        width: 261px;
+        background-image: url(../img/victor-franciulli.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
 }
 
-.intro__text {
-    color: var(--color-text-primary);
-    font-size: 1.25rem;
+@media screen and (min-width: 1200px) {
+    .intro {
+        padding: 6.5rem 10rem 0 10rem;
+    }
+
+    .intro__content {
+        width: calc(90% - 22.31rem);
+        max-width: 50%;
+    }
+
+    .intro__image {
+        width: 357px;
+        height: 493px;
+    }
+
+    .intro__tittle {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+    
+    .tittle__strong:hover {
+        background-color: var(--color-main-green);
+        color: black;
+    }
+    
+    .intro__text {
+        color: var(--color-text-primary);
+        font-size: 1.25rem;
+    }
+  
 }
 
-.intro__image {
-    position: relative;
-    width: 22.31rem;
-    height: 30.81rem;
-    background-image: url(../img/victor-franciulli.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+@media screen and (min-width: 1440px) {
+    .intro {
+        padding: 6.5rem 16rem 0 16rem;
+    }
+
+    .intro__image {
+        width: 357px;
+        height: 493px;
+    }
 }
