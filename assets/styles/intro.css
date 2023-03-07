@@ -20,12 +20,11 @@
     
     .intro__tittle {
         font-size: 2rem;
-        line-height: 3rem;
+        line-height: 3.5rem;
     }
 
     .intro__text {
-        font-size: 1rem;
-        line-height: 1.5rem;
+        font-size: 1.25rem;
     }
 
     .intro__image {
