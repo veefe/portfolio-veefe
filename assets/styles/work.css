@@ -15,7 +15,7 @@
     background-image: url(../img/works/fusao.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     -webkit-box-shadow: 0px 10px 32px 0px rgba(0,0,0,0.28);
     -moz-box-shadow: 0px 10px 32px 0px rgba(0,0,0,0.28);
     box-shadow: 0px 10px 32px 0px rgba(0,0,0,0.5);
@@ -25,7 +25,7 @@
     background-image: url(../img/works/riot.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     -webkit-box-shadow: 0px 10px 32px 0px rgba(0,0,0,0.28);
     -moz-box-shadow: 0px 10px 32px 0px rgba(0,0,0,0.28);
     box-shadow: 0px 10px 32px 0px rgba(0,0,0,0.5);
