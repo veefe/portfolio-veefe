@@ -1,5 +1,11 @@
-.developer {
-    padding: 12rem 10rem;
+.developer__tittle {
+    font-size: 2.25rem;
+    color: var(--color-text-primary);
+}
+
+.developer__subtittle {
+    color: var(--color-main-green);
+    font-size: 1.2rem;
 }
 
 .container-developer__content {
@@ -15,20 +21,36 @@
     text-align: right;
 }
 
-.developer__tittle {
-    font-size: 2.25rem;
-    color: var(--color-text-primary);
-}
-
-.developer__subtittle {
-    color: var(--color-main-green);
-    font-size: 1.2rem;
-}
-
 .content-right {
     display: flex;
     align-self: flex-end;
     flex-direction: column;
-    width: 50%;
     padding-top: 2.6rem;
+}
+
+@media screen and (min-width: 768px) {
+    .developer {
+        padding: 4rem 5rem;
+        border-top: 1px solid var(--color-light-green);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+   .developer {
+    padding: 6.5rem 10rem;
+    border-top: none;
+   } 
+
+   .content-right {
+    padding-top: 5.2rem;
+   }
+}
+
+@media screen and (min-width: 1440px) {
+    .developer {
+        margin: 0 auto;
+        padding: 6.5rem 18rem;
+        max-width: 48rem;
+    }
 }

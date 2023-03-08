@@ -2,7 +2,7 @@
 
 :root {
     --color-main-green: #48eb92;
-    --color-light-green: #2b9159;
+    --color-light-green: #93ffc4;
     --color-dark-green: #001f12;
     --color-text-primary: #ffffff;
     --color-background: #000000;
@@ -11,10 +11,20 @@
 }
 
 body {
-    /* background-color: var(--color-background); */
-    background: #1f4037;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #1d5a38, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #1d5a38, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    /* background: #1f4037;
+    background: -webkit-linear-gradient(to top, #1d5a38, #000000);
+    background: linear-gradient(to top, #1d5a38, #000000); */
+
+    background-color:hsla(0,0%,0%,1);
+    background-image:
+    radial-gradient(at 0% 0%, hsla(96,100%,4%,1) 0px, transparent 50%),
+    radial-gradient(at 54% 23%, hsla(178,44%,30%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(158,0%,0%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(153,78%,53%,1) 0px, transparent 50%),
+    radial-gradient(at 83% 55%, hsla(153,100%,50%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(175,54%,28%,1) 0px, transparent 50%),
+    radial-gradient(at 74% 99%, hsla(155,88%,7%,1) 0px, transparent 50%);
 
     font-family: var(--font-principal);
     font-size: 1rem;
